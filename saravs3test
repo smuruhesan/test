@@ -2,3 +2,10 @@
 resource "aws_s3_bucket" "TEST1" {
 
 }
+
+
+
+resource "aws_ebs_volume" "v" {
+  size = 40
+    encrypted = false  
+ }
